@@ -12,4 +12,7 @@ $("button#login").click(function(){
   $(".intro").hide();
   $(".homerandom").show();
 });
+$("button#search").click(function(){
+$(".search").show();
+});
     });

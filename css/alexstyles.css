@@ -101,7 +101,7 @@ nav a:hover::before{
 }
 
 .carousel-item{
-  width: 30%;
+  width: 40%;
   position: relative;
   margin-left: 30%;
 }
@@ -133,4 +133,20 @@ border-radius: 10px;
 }
 .x{
   color: black;
+}
+
+.sales img{
+  width: 80%;
+  height: 80%;
+}
+.search{
+  display: none;
+}
+
+.short-entry{
+  background-color: #55d6aa;
+  padding: 1%;
+}
+.shortentry{
+  margin-top: 20%;
 }
