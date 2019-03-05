@@ -1,10 +1,16 @@
 body{
-    background-color: #f7ecca;
+    background-color: #0c0c0b;
 }
 h1{
+    color:#f2f2de;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-style: cursive;
     text-decoration:underline;
+    font-family: 'Pacifico', cursive;
+}
+img{
+    padding: 12px;
+    margin: 0px;
 }
