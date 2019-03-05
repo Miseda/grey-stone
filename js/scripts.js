@@ -3,7 +3,7 @@ $(document).ready(function() {
   $(".signup").show();
   $(".intro").hide();
     });
-  $("button#appy").click(function(){
+  $("button#apply").click(function(){
     $(".signup").hide();
     $(".intro").show();
   })
