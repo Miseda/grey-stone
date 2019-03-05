@@ -101,7 +101,7 @@ nav a:hover::before{
 }
 
 .carousel-item{
-  width: 50%;
+  width: 30%;
   position: relative;
   margin-left: 20%;
 }
