@@ -7,4 +7,9 @@ $(document).ready(function() {
     $(".signup").hide();
     $(".intro").show();
   })
+
+$("button#login").click(function(){
+  $(".intro").hide();
+  $(".homerandom").show();
+});
     });

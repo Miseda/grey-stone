@@ -3,7 +3,8 @@
 }
 
 
-body {
+html body {
+  padding: 10px;
   font-weight: 400;
   font-family: sans-serif;
   margin: 0 auto;
@@ -84,6 +85,7 @@ nav a:hover::before{
   float: left;
   padding: 5px;
   border-radius: 10px;
+
 }
 
 
@@ -97,3 +99,18 @@ nav a:hover::before{
   width: 200px;
   top: 0;
 }
+
+.carousel-item{
+  width: 50%;
+  position: relative;
+  margin-left: 20%;
+}
+
+.homerandom{
+  background-color: white;
+  display: none;
+}
+.pic {
+  margin-left: 15%;
+}
+w
