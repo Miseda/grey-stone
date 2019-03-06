@@ -161,3 +161,6 @@ border-radius: 10px;
 #vid {
   width: 100px;
 }
+#leave-login{
+  display: none;
+}

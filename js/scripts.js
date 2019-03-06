@@ -21,4 +21,8 @@ $(".search").show();
 $("#enter-login").click(function(){
   $(".intro").show();
 });
+$("#home1").click(function(){
+  $(".pic").show();
+  $(".homerandom").hide();
+});
     });
