@@ -164,3 +164,6 @@ border-radius: 10px;
 #leave-login{
   display: none;
 }
+#back{
+  display: none;
+}
