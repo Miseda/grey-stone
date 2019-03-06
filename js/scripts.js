@@ -14,14 +14,14 @@ $("button#login").click(function(){
   $(".intro").hide();
   $(".homerandom").show();
   $(".pic").hide();
+  $("#enter-login").hide();
+  $("#leave-login").show();
 });
 $("button#search").click(function(){
 $(".search").show();
 });
 $("#enter-login").click(function(){
   $(".intro").show();
-  $("#leave-login").show();
-  $("#enter-login").hide();
 });
 $("#home1").click(function(){
   $(".pic").show();
