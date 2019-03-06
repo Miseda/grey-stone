@@ -34,4 +34,5 @@ $("#leave-login").click(function(){
   $(".homerandom").hide();
   $("#enter-login").show();
 });
+
     });
