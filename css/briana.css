@@ -8,9 +8,10 @@ h1{
     font-weight: bold;
     font-style: cursive;
     font-family: 'Alex Brush', cursive;
+    
 }
 img{
-    padding: 12px;
+    padding: 30px;
     margin: 0px;
 }
 .jumbotron{
@@ -38,7 +39,7 @@ img{
  
  #pictures img {
    /* Just in case there are inline attributes */
-   width: 100% !important;
+   width: 80% !important;
    height: auto !important;
  }
  
@@ -75,4 +76,12 @@ img{
    margin: 0;
    padding: 0;
  }
- 
+ img{
+     padding: 12px;
+     margin: 40px
+ }
+ p{
+     text-align: center;
+     margin-bottom: 22px;
+
+ }
