@@ -27,4 +27,10 @@ $("#home1").click(function(){
   $(".pic").show();
   $(".homerandom").hide();
 });
+$("#leave-login").click(function(){
+  $(".pic").show();
+  $("#leave-login").hide();
+  $(".homerandom").hide();
+  $("#enter-login").show();
+});
     });
