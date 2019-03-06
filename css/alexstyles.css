@@ -169,6 +169,16 @@ border-radius: 10px;
   display: none;
 }
 h2 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Playfair Display SC', serif;
   text-align: center;
+  text-decoration: underline;
+}
+video{
+  width: 60%;
+  margin-left: 20%;
+}
+h4{
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  
 }
