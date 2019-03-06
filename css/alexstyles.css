@@ -150,3 +150,14 @@ border-radius: 10px;
 .shortentry{
   margin-top: 20%;
 }
+.intro{
+  display: none;
+}
+
+.pic{
+  margin-right: 15%;
+}
+
+#vid {
+  width: 100px;
+}
