@@ -105,7 +105,11 @@ var ShoppingCart = (function($) {
       var productEl = document.createElement("div");
       productEl.className = "product";
       productEl.innerHTML = `<div class="product-image">
+                                <div class="view overlay zoom">
                                 <img src="${item.imageUrl}" alt="${item.name}">
+                                <div class="mask flex-center">
+                                </div>
+                              </div>
                              </div>
                              <div class="product-name"><span>Product:</span> ${item.name}</div>
                              <div class="product-description"><span>Description:</span> ${item.description}</div>
