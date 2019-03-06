@@ -1,14 +1,14 @@
 body{
-    background-color: #0c0c0b;
+    background-color:white;
 }
 h1{
-    color:#f2f2de;
+    color:black;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
     font-style: cursive;
-    font-family: 'Alex Brush', cursive;
     
+ 
 }
 img{
     padding: 30px;
