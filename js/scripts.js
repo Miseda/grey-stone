@@ -26,13 +26,18 @@ $("#enter-login").click(function(){
 $("#home1").click(function(){
   $(".pic").show();
   $(".homerandom").hide();
-  $("#back").show();
+  $("#return").show();
 });
 $("#leave-login").click(function(){
   $(".pic").show();
   $("#leave-login").hide();
   $(".homerandom").hide();
   $("#enter-login").show();
+});
+
+$("button#return").click(function(){
+  $(".homerandom").show();
+  $(".pic").hide();
 });
 
     });
