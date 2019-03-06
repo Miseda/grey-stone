@@ -26,6 +26,7 @@ $("#enter-login").click(function(){
 $("#home1").click(function(){
   $(".pic").show();
   $(".homerandom").hide();
+  $("#back").show();
 });
 $("#leave-login").click(function(){
   $(".pic").show();
