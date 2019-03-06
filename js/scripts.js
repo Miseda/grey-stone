@@ -33,6 +33,7 @@ $("#leave-login").click(function(){
   $("#leave-login").hide();
   $(".homerandom").hide();
   $("#enter-login").show();
+  $("#return").hide();
 });
 
 $("button#return").click(function(){

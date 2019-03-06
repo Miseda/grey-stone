@@ -168,3 +168,6 @@ border-radius: 10px;
 #return{
   display: none;
 }
+h2 {
+  text-align: center;
+}
