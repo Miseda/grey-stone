@@ -143,6 +143,9 @@ border-radius: 10px;
 .search{
   display: none;
 }
+#search{
+  float: right;
+}
 
 .short-entry{
   background-color: #55d6aa;
