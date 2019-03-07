@@ -1,7 +1,7 @@
 #photos {
     /* Prevent vertical gaps */
     line-height: 0;
-    
+
     -webkit-column-count: 5;
     -webkit-column-gap:   13px;
     -moz-column-count:    5;
@@ -10,13 +10,13 @@
     column-gap:           13px;
     row-gap:              18px;
  }
- 
+
  #photos img {
    /* Just in case there are inline attributes */
    width: 100% !important;
    height: auto !important;
  }
- 
+
  @media (max-width: 1200px) {
    #photos {
    -moz-column-count:    4;
@@ -45,7 +45,7 @@
    column-count:         1;
    }
  }
- 
+
  body {
    margin: 13px;
    padding: 10px;
@@ -58,14 +58,14 @@
  }
  h1{text-align: center;
     font-family: 'Great Vibes', cursive;
-    font-family: 'Srisakdi', cursive;  
+    font-family: 'Srisakdi', cursive;
  }
  .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+
   .product {
     display: flex;
     flex-direction: column;
@@ -77,39 +77,39 @@
     border-radius: 5px;
     background: azure;
   }
-  
-  
+
+
   .product span {
     font-weight: bold;
   }
-  
+
   .product-image img {
     display: block;
     max-width: 228px;
     width: 100%;
     margin: 0 auto;
   }
-  
+
   .
   .row .product:last-child {
     margin-right: 0;
   }
-  
+
   .product-add-to-cart {
     overflow: hidden;
     clear: both;
     margin-top: 10px;
   }
-  
+
   .see-more {
     float: left;
     background: indianred;
   }
-  
+
   .add-to-cart {
     float: right;
   }
-  
+
   .shopping-cart {
     position: fixed;
     top: 0;
@@ -121,28 +121,28 @@
     padding: 20px;
     background:#55d6aa;
   }
-  
+
   .shopping-cart-head {
     background: steelblue;
     color: white;
     padding: 5px;
   }
-  
+
   .shopping-cart,
   .shopping-cart-head {
     border-radius: 5px;
   }
-  
+
   .empty-cart-btn,
   .cart-checkout {
     display: none;
-    
+
   }
-  
+
   .empty-cart-btn {
     margin-bottom: 5px;
   }
-  
+
   .cart-checkout {
     background: limegreen;
   }
@@ -150,53 +150,53 @@
     margin: 0 auto;
     width: 80%
   }
-  
-  
+
+
   header{
     background: #55d6aa;
     opacity: .9;
   }
-  
-  
+
+
    header::after {
      content: "";
      display: table;
      clear: both;
    }
-  
-  
+
+
     nav{
      float: right;
     }
-  
-  
+
+
   nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  
-  
+
+
   nav li {
     display: inline-block;
     margin: 30px;
     position: relative;
   }
-  
-  
+
+
   nav a{
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
   }
-  
-  
+
+
   nav a:hover{
   color: black;
   }
-  
-  
+
+
   nav a::before{
     content: "";
     display: block;
@@ -207,25 +207,21 @@
     width: 0%;
     transition: all ease-in-out 500ms;
   }
-  
-  
+
+
   nav a:hover::before{
     width: 100%;
   }
-  
-  
+
+
   .logo{
     height: 100px;
     width: 250px;
     float: left;
     padding: 5px;
     border-radius: 10px;
-  
+
   }
   .dress{
       background-color:white;
   }
-
-
-  
- 
