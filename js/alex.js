@@ -104,7 +104,7 @@ var ShoppingCart = (function($) {
     products.forEach(function(item) {
       var productEl = document.createElement("div");
       productEl.className = "product";
-      productEl.innerHTML = `<div class="product-image">
+      productEl.innerHTML = `<div class="product-image card booking-card">
                                 <div class="view overlay zoom">
                                 <img src="${item.imageUrl}" alt="${item.name}">
                                 <div class="mask flex-center">
@@ -115,7 +115,7 @@ var ShoppingCart = (function($) {
                              <div class="product-description"><span>Description:</span> ${item.description}</div>
                              <div class="product-price"><span>Price:</span> ${item.price} KSH</div>
                              <div class="product-add-to-cart">
-                               <a href="#0" class="button add-to-cart" data-id=${item.id}>Add to Cart</a>
+                               <a href="#0" class="button add-to-cart btn btn-primary btn-md chip mr-0" data-id=${item.id}>Add to Cart</a>
                              </div>
                           </div>
 `;

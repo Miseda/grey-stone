@@ -107,7 +107,7 @@ nav a:hover::before{
 }
 
 .homerandom{
-  background-color: white;
+  background-color: cornsilk;
   display: none;
 }
 .pic {
@@ -258,7 +258,7 @@ a {
   margin-bottom: 15px;
   margin: 1px;
   border-radius: 5px;
-  background: wheat;
+  background: white;
 }
 
 
@@ -303,6 +303,7 @@ a {
   margin-top: 10px;
   padding: 20px;
   background: #55d6aa ;
+  opacity: .8;
 }
 
 .shopping-cart-head {
