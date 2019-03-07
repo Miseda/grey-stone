@@ -99,7 +99,7 @@ var ShoppingCart = (function($) {
   ],
       productsInCart = [];
 
-  // Pretty much self explanatory function. NOTE: Here I have used template strings (ES6 Feature)
+
   var generateProductList = function() {
     products.forEach(function(item) {
       var productEl = document.createElement("div");
@@ -124,7 +124,7 @@ productsEl.appendChild(productEl);
     });
   }
 
-  // Like one before and I have also used ES6 template strings
+
   var generateCartList = function() {
 
     cartEl.innerHTML = "";
@@ -141,7 +141,7 @@ productsEl.appendChild(productEl);
   }
 
 
-  // Function that generates Empty Cart and Checkout buttons based on condition that checks if productsInCart array is empty
+
   var generateCartButtons = function() {
     if(productsInCart.length > 0) {
       emptyCartEl.style.display = "block";
@@ -153,7 +153,7 @@ productsEl.appendChild(productEl);
     }
   }
 
-  // Setting up listeners for click event on all products and Empty Cart button as well
+
   var setupListeners = function() {
     productsEl.addEventListener("click", function(event) {
       var el = event.target;
@@ -171,7 +171,7 @@ productsEl.appendChild(productEl);
     });
   }
 
-  // Adds new items or updates existing one in productsInCart array
+
   var addToCart = function(id) {
     var obj = products[id];
     if(productsInCart.length === 0 || productFound(obj.id) === undefined) {
@@ -187,7 +187,7 @@ productsEl.appendChild(productEl);
   }
 
 
-  // This function checks if project is already in productsInCart array
+
   var productFound = function(productId) {
     return productsInCart.find(function(item) {
       return item.product.id === productId;
@@ -200,18 +200,18 @@ productsEl.appendChild(productEl);
     }, 0);
   }
 
-  // This functon starts the whole application
+
   var init = function() {
     generateProductList();
     setupListeners();
   }
 
-  // Exposes just init function to public, everything else is private
+
   return {
     init: init
   };
 
-  // I have included jQuery although I haven't used it
+
 })(jQuery);
 
 ShoppingCart.init();
