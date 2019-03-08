@@ -59,8 +59,9 @@ If you run into any issues you can contact (Alex Miseda at - 0711826763)
                                            (Briana Nzivu at - 0717189644)
                                            (Joseph Gakunga at - 07246884917)
                                            (Christine Wanjiru at - 0702253219)
-                                           
+
 ##License
+
 THIS WEBSITE HAS AN (MIT) LICENSE  AND IS LEGAL FOR ANYONE TO COPY AND PASTE.
  NO PENALTY OR CHARGES WILL BE MADE ON ANYONE WHO ATTEMPTS TO TRY AND COPY IT .
                                MIT (c) 2019
